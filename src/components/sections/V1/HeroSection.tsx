@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Container from "../../ui/Container";
 import Button from "../../ui/Button";
 
-import heroPhone from "../../../assets/v1/hero-phone-off.png";
+import heroPhone from "../../../assets/v1/hero-phone-off.webp";
 import heroMeal from "../../../assets/v1/hero-meal2.webp";
 
 const colors = {
