@@ -17,8 +17,8 @@ import { motion } from "framer-motion";
 import Container from "../components/ui/Container";
 import Button from "../components/ui/Button";
 
-import mealsImage from "../assets/v1/meal1.jpg";
-import heroMeal from "../assets/v1/hero-meal2.png";
+import mealsImage from "../assets/v1/meal1.webp";
+import heroMeal from "../assets/v1/hero-meal2.webp";
 
 const colors = {
   viride: "rgb(0,143,108)",
