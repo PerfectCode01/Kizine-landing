@@ -1,4 +1,3 @@
-import Footer from "../components/sections/V0/Footer";
 import FinalCTASection from "../components/sections/V1/FinalCTASection";
 import HeroSection from "../components/sections/V1/HeroSection";
 import MealsPreviewSection from "../components/sections/V1/MealsPreviewSection";
