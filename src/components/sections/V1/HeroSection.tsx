@@ -5,7 +5,7 @@ import Container from "../../ui/Container";
 import Button from "../../ui/Button";
 
 import heroPhone from "../../../assets/v1/hero-phone-off.png";
-import heroMeal from "../../../assets/v1/hero-meal2.png";
+import heroMeal from "../../../assets/v1/hero-meal2.webp";
 
 const colors = {
   viride: "rgb(0,143,108)",

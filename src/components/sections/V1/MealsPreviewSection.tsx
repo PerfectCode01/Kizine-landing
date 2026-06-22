@@ -2,7 +2,7 @@ import { ArrowRight, Sparkles } from "lucide-react";
 
 import Container from "../../ui/Container";
 
-import mealsImage from "../../../assets/v1/meal1.jpg";
+import mealsImage from "../../../assets/v1/hero-meal2.webp";
 
 export default function MealsPreviewSection() {
   return (
