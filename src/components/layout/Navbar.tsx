@@ -47,14 +47,14 @@ export default function Navbar() {
           <div className="mt-4 border-t border-gray-100 pt-4 md:hidden">
             <div className="flex flex-col gap-3 text-sm font-semibold text-gray-700">
               {links.map((link) => (
-                <a
+                <Link
                   key={link.href}
-                  href={link.href}
+                  to={`/${link.href}`}
                   onClick={() => setIsOpen(false)}
                   className="rounded-full px-4 py-3 transition hover:bg-gray-50 hover:text-[var(--color-primary)]"
                 >
                   {link.label}
-                </a>
+                </Link>
               ))}
             </div>
           </div>
