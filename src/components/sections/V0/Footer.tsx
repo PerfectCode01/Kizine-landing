@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Container from "../../ui/Container";
 
 export default function Footer() {
@@ -23,18 +24,15 @@ export default function Footer() {
             <h4 className="font-bold">Navigation</h4>
 
             <div className="mt-4 space-y-3 text-white/60">
-              <a href="#" className="block hover:text-white">
+              <Link to="/" className="block hover:text-white">
                 Accueil
-              </a>
-              <a href="#solution" className="block hover:text-white">
-                Plateforme
-              </a>
-              <a href="#how-it-works" className="block hover:text-white">
+              </Link>
+              <Link to="/faq" className="block hover:text-white">
                 Comment ça marche
-              </a>
-              <a href="#contact" className="block hover:text-white">
+              </Link>
+              <Link to="/contact" className="block hover:text-white">
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
 
