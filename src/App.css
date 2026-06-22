@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* 1. Imports de polices (Google Fonts et Locale) */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap');
+
+@font-face {
+  font-family: 'Energy';
+  src: url('./assets/v1/fonts/Energy.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. Configuration pour Tailwind v4 */
+@theme {
+  --font-heebo: "Heebo", sans-serif; /* Génère la classe font-heebo */
+  --font-energy: 'Energy', sans-serif;
+  --font-heading: "Bebas Neue", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --color-primary: #008f6c;
+  --color-primary-dark: #02543f;
+  --color-secondary: #ffd12d;
+  --color-secondary-light: #fcf6b8;
+  --color-white: #ffffff;
+}
+
+/* 3. Styles globaux */
+body {
+  font-family: var(--font-body); /* Ou var(--font-heebo) si tu veux Heebo par défaut */
+  background: #ffffff;
+  color: #111827;
+}
