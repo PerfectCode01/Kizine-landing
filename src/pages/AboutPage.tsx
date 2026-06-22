@@ -3,7 +3,6 @@ import {
   BarChart3,
   CheckCircle2,
   CookingPot,
-  Factory,
   MapPin,
   Network,
   PackageCheck,

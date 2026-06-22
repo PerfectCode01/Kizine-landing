@@ -1,7 +1,6 @@
 import {
   ArrowRight,
   BarChart3,
-  CalendarClock,
   ChevronDown,
   HelpCircle,
   MapPin,
