@@ -14,7 +14,6 @@ function HomePage() {
       <MealsPreviewSection/>
       <VisionSection/>
       <FinalCTASection/>
-      <Footer/>
     </div>
   );
 }
