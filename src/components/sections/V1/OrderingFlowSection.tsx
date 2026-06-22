@@ -2,9 +2,9 @@ import { CalendarClock, Truck, Utensils } from "lucide-react";
 
 import Container from "../../ui/Container";
 
-import stepDiscover from "../../../assets/v1/image1.png";
-import stepMoment from "../../../assets/v1/image2.png";
-import stepDelivery from "../../../assets/v1/image3.png";
+import stepDiscover from "../../../assets/v1/image1.webp";
+import stepMoment from "../../../assets/v1/image2.webp";
+import stepDelivery from "../../../assets/v1/image3.webp";
 
 const steps = [
   {
